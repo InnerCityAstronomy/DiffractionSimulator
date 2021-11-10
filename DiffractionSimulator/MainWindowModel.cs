@@ -79,7 +79,7 @@ namespace DiffractionMaskSimulator
 
         // Settings
         private const double ImageDynamicRange = 24;
-        private const double Gamma = 1.0;
+        private const double Gamma = 1;
         private MathNet.Numerics.IntegralTransforms.FourierOptions FOptions { get; set; }
 
         // Default Constructor
